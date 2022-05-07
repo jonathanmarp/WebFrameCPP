@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\WebFramCPP\deps\zlib\temp\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Dev\WebFramCPP\deps\zlib\temp\build32\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\WebFramCPP\deps\zlib\temp\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\WebFramCPP\deps\zlib\temp\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\WebFramCPP\deps\zlib\temp\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\WebFramCPP\deps\zlib\temp\gzguts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\WebFramCPP\deps\zlib\temp\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\WebFramCPP\deps\zlib\temp\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\WebFramCPP\deps\zlib\temp\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\WebFramCPP\deps\zlib\temp\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\WebFramCPP\deps\zlib\temp\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\WebFramCPP\deps\zlib\temp\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Dev\WebFramCPP\deps\zlib\temp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{90C60D85-AE6A-3DB0-812C-E4F77CAFE27A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FCBD0C34-9B62-3F12-9CFE-2B4724A24A2F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

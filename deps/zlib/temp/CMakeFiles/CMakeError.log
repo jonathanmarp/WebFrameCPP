@@ -1,0 +1,99 @@
+Determining size of off64_t failed with the following output:
+Change Dir: D:/Dev/WebFramCPP/deps/zlib/temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6b07c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.1.0+ae57d105c for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31104 for x64
+  OFF64_T.c
+D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CheckTypeSize\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CMakeTmp\cmTC_6b07c.vcxproj]
+D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CheckTypeSize\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CMakeTmp\cmTC_6b07c.vcxproj]
+D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CheckTypeSize\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CMakeTmp\cmTC_6b07c.vcxproj]
+D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CheckTypeSize\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CMakeTmp\cmTC_6b07c.vcxproj]
+D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CheckTypeSize\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CMakeTmp\cmTC_6b07c.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6b07c.dir\Debug\\" /Fd"cmTC_6b07c.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CheckTypeSize\OFF64_T.c
+
+
+D:/Dev/WebFramCPP/deps/zlib/temp/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: D:/Dev/WebFramCPP/deps/zlib/temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c161a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.1.0+ae57d105c for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31104 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c161a.dir\Debug\\" /Fd"cmTC_c161a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\Program Files\CMake\share\cmake-3.23\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CMakeTmp\cmTC_c161a.vcxproj]
+D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CMakeTmp\Debug\cmTC_c161a.exe : fatal error LNK1120: 1 unresolved externals [D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CMakeTmp\cmTC_c161a.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: D:/Dev/WebFramCPP/deps/zlib/temp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ead11.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.1.0+ae57d105c for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.31.31104 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ead11.dir\Debug\\" /Fd"cmTC_ead11.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\Dev\WebFramCPP\deps\zlib\temp\CMakeFiles\CMakeTmp\cmTC_ead11.vcxproj]
+
+
+

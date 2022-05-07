@@ -1,0 +1,10 @@
+^D:\DEV\WEBFRAMCPP\DEPS\ZLIB\TEMP\CMAKELISTS.TXT
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Dev/WebFramCPP/deps/zlib/temp -BD:/Dev/WebFramCPP/deps/zlib/temp/build32 --check-stamp-file D:/Dev/WebFramCPP/deps/zlib/temp/build32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,8 @@
+D:/Dev/WebFramCPP/deps/zlib/temp/CMakeFiles/zlib.dir
+D:/Dev/WebFramCPP/deps/zlib/temp/CMakeFiles/zlibstatic.dir
+D:/Dev/WebFramCPP/deps/zlib/temp/CMakeFiles/example.dir
+D:/Dev/WebFramCPP/deps/zlib/temp/CMakeFiles/minigzip.dir
+D:/Dev/WebFramCPP/deps/zlib/temp/CMakeFiles/RUN_TESTS.dir
+D:/Dev/WebFramCPP/deps/zlib/temp/CMakeFiles/INSTALL.dir
+D:/Dev/WebFramCPP/deps/zlib/temp/CMakeFiles/ALL_BUILD.dir
+D:/Dev/WebFramCPP/deps/zlib/temp/CMakeFiles/ZERO_CHECK.dir

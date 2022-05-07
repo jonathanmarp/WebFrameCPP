@@ -1,0 +1,10 @@
+^D:\DEV\WEBFRAMCPP\DEPS\ZLIB\TEMP\CMAKEFILES\CDF7C0C29B6CB91BE43D980E2AD97BEF\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Dev/WebFramCPP/deps/zlib/temp -BD:/Dev/WebFramCPP/deps/zlib/temp --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Dev/WebFramCPP/deps/zlib/temp/zlib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
